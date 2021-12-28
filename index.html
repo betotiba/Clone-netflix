@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+
+    <!--responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+    <title>NETFLIX CLONE</title>
+    <style>
+
+.box_login{
+    margin-top: 40px;
+    background-color: rgba(0,0,0,.75);
+    padding: 60px 40px;
+    margin-bottom: 90px;
+    color:#fff;
+    padding-bottom: 80px;
+    
+  }
+
+@media only screen and (max-width: 600px) {
+    .box_login{
+      margin-top: 60px;  
+      padding:80px 20px;
+    
+  }
+}
+
+
+body {
+ background-image: url("./img/bg.jpg");
+ height: 800px;
+background-size: cover;
+}
+
+
+
+
+
+.box_login h3{
+    font-size: 30px;
+}
+
+.flex_container {
+        
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+
+  .campo_info_login{
+      margin-bottom: 10px;
+  }
+
+ 
+
+  .campo_info_login {
+    border-radius: 4px;
+    border: 0;
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+    padding: 16px 0px 0;
+}
+
+.btn_login{
+    padding: 16px ;
+    width:100%;
+    background: #e50914;
+    border-radius: 4px;
+    border:none;
+    color:#fff;
+}
+
+.btn_login:hover{
+
+   cursor: pointer;
+   transition: 1s ease all;
+}
+
+.login-body {
+    color: #333;
+    margin: 0 auto;
+    padding: 0 5%;
+    margin-bottom: 900px;
+    max-width: 600px;
+}
+
+.campo_imput{
+    width:100%;
+    padding: 12px;
+
+    border:none;
+    }
+
+
+
+    </style>
+</head>
+<body>
+
+    
+<div class="container_flex">
+    <header>
+        <div class="container">
+            <h2 class="logo" style="color: #E50914; font-size: 30px;">FETNESFLIX</h2>    
+        </div>
+    </header>
+
+    <main>
+        <div class="login-body">
+            <div class="conteiner box_login">
+                <h3>Entrar</h3>
+
+             
+         <form class="user" name="pms_login" id="pms_login" action= "./aluno/" method="post">
+                <div class="campo_info_login">
+                        <input class="campo_imput" type="text" name="usuario" id="usuario" placeholder="Login" >
+                </div>
+                <div class="campo_info_login">
+                    <input class="campo_imput" type="password" name="senha" id="senha" placeholder="Senha" >
+                </div>
+                
+               
+
+                <div class="campo_info_login">
+                  <input type="submit" name="btnLogin" id="btnLogin" class="btn_login" value="Entrar">              
+                </div>
+              
+                </form>
+                
+            </div>
+        </div>
+</main>
+
+ 
+
+    
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+ 
+    </div>
+ 
+</body>
+</html>
